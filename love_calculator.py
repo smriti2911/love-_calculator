@@ -13,7 +13,7 @@ o=lower_names.count("o")
 v=lower_names.count("v")
 e=lower_names.count("e")
 second_digit=l+o+v+e
-score=str(first_digit)+str(second_digit)
+score=(first_digit)+(second_digit)
 if(score<10) or (score>90):
     print(f"your score is{score}, you go together like coke and mentos.")
 elif( score>= 40) and (score<=50):
